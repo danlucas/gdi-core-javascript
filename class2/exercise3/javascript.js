@@ -5,7 +5,7 @@ function calculate(){
 
     var days = (oldAge - age) * 356;
     var total = perDay * days;
-    var resultDiv = document.getElementById('lifetime-supply')
+    var resultDiv = document.getElementById('lifetime-supply');
     if(total > 40000){
         resultDiv.innerHTML = "You will need " + total + " to last you until the ripe old age of " + oldAge + ". Wow! That's a lot!";
     }else{
